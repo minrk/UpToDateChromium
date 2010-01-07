@@ -5,7 +5,7 @@ removeafter=false
 downloads="$HOME/Downloads"
 installdir="/Applications"
 
-notify=`which growl` # GrowlScript from git@github.com:minrk/GrowlScript.git
+notify=`which growl` # GrowlScript from git://github.com:minrk/GrowlScript.git
 test -z "$notify" && notify='echo'
 
 # end configurable options (probably)
