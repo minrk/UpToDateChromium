@@ -1,4 +1,9 @@
+ABOUT
+
 This will keep Chromium up to date
 You can edit the variables at the top of the file if you want to keep the downloads in a different directory.
 If you set 'removeafter=true' then the downloaded file will be trashed. Otherwise, the most recent one is kept in case you try to update and already have the latest version.
 If you install my GrowlScript (at git@github.com:minrk/GrowlScript.git), or any 'growl' executable that takes arguments, in your path, then the update will send a Growl notification telling you what revision you have.
+
+INSTALL
+You can just put 'update-chromium.sh' anywhere and run it, but I also have it bundled as a Service. Just copy UpdateChromium.workflow into the Services subdirectory of $HOME/Library (or /Library for all users). I even wrote a script to do that (it's one line), so you can just do 'sh install-service.sh' and it should show up in that magic Services submenu
